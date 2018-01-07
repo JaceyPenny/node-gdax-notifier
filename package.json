@@ -4,7 +4,8 @@
   "description": "A simple GDAX fill notifier that sends triggers to IFTTT",
   "main": "server.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/JaceyPenny/node-gdax-notifier#readme",
   "dependencies": {
-    "gdax-trading-toolkit": "^0.2.1"
+    "gdax-trading-toolkit": "^0.2.1",
+    "request": "^2.83.0"
   }
 }
