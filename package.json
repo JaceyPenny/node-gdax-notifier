@@ -1,0 +1,28 @@
+{
+  "name": "gdax-notifier",
+  "version": "1.0.0",
+  "description": "A simple GDAX fill notifier that sends triggers to IFTTT",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaceyPenny/node-gdax-notifier.git"
+  },
+  "keywords": [
+    "gdax",
+    "fill",
+    "notify",
+    "ifttt"
+  ],
+  "author": "Jace McPherson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaceyPenny/node-gdax-notifier/issues"
+  },
+  "homepage": "https://github.com/JaceyPenny/node-gdax-notifier#readme",
+  "dependencies": {
+    "gdax-trading-toolkit": "^0.2.1"
+  }
+}
