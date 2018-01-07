@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const GTT = require('gdax-trading-toolkit');
 const request = require('request');
 

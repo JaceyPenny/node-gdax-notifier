@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/JaceyPenny/node-gdax-notifier#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "gdax-trading-toolkit": "^0.2.1",
     "request": "^2.83.0"
   }
